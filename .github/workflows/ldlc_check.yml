@@ -2,7 +2,7 @@ name: LDLC Stock Checker
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Controlla ogni 10 minuti
+    - cron: "*/5 * * * *"  # Controlla ogni 5 minuti
   workflow_dispatch:  # Permette di eseguire il job manualmente
 
 jobs:
