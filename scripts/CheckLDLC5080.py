@@ -26,7 +26,7 @@ def check_availability():
         if "En stock" in availability:
             send_telegram_notification(f"🎉 DISPONIBILE: {url}")
         else:
-            print(f"Ancora non disponibile: {url}")
+            send_telegram_notification(f"Ancora non disponibile: {url}")
 
 
 def send_telegram_notification(message):
